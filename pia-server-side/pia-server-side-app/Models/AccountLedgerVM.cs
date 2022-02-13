@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace pia_server_side_app.Models
 {
-    public class AccountLedgerInformation
+    public class AccountLedgerVM
     {
         public int Id { get; set; }
         public string AccountLedgerName { get; set; }

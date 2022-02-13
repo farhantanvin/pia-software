@@ -21,7 +21,7 @@ namespace pia_server_side_app.Controllers
         }
 
         [HttpGet]
-        public async Task<IEnumerable<AccountLedgerInformation>> GetAccountLedgers()
+        public async Task<IEnumerable<AccountLedgerVM>> GetAccountLedgers()
         {
             return await _accountLedgerRepository.Get();
         }

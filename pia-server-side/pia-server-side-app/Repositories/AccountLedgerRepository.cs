@@ -35,7 +35,7 @@ namespace pia_server_side_app.Repositories
 
 
        
-        public async Task<IEnumerable<AccountLedgerInformation>> Get()
+        public async Task<IEnumerable<AccountLedgerVM>> Get()
         {
 
             var AccountLedger = (from a in _context.AccountLedgers
@@ -44,7 +44,7 @@ namespace pia_server_side_app.Repositories
                                  join sgl in _context.SubGroupLedgers on a.SubGroupLedgerId equals sgl.Id
                                  join cl in _context.ControlLedgers on a.ControlLedgerId equals cl.Id
 
-                                 select new AccountLedgerInformation()
+                                 select new AccountLedgerVM()
                                  {
                                      Id = a.Id,
                                      AccountLedgerName = a.AccountLedgerName,

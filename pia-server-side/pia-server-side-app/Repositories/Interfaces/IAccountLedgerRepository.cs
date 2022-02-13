@@ -8,7 +8,7 @@ namespace pia_server_side_app.Repositories.Interfaces
 {
     public interface IAccountLedgerRepository
     {
-        Task<IEnumerable<AccountLedgerInformation>> Get();
+        Task<IEnumerable<AccountLedgerVM>> Get();
         Task<AccountLedger> Get(int id);
         Task<AccountLedger> Create(AccountLedger accountLedger);
         Task Upadate(AccountLedger accountLedger);
