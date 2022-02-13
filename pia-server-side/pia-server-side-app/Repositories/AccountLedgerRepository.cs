@@ -52,7 +52,6 @@ namespace pia_server_side_app.Repositories
                                      GroupLedgerName = gl.GroupLedgerName,
                                      SubGroupLedgerName = sgl.SubGroupLedgerName,
                                      ControlLedgerName = cl.ControlLedgerName
-
                                  }
                 ).ToListAsync();
 

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pia-server-side-app", "pia-server-side-app\pia-server-side-app.csproj", "{78946A9B-6969-4483-A5F1-ED9FA2009417}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pia-server-side-app", "pia-server-side-app\pia-server-side-app.csproj", "{78946A9B-6969-4483-A5F1-ED9FA2009417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests New\UnitTests.csproj", "{6FBBB730-B09A-4E8B-96B6-BB6B2508338B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{78946A9B-6969-4483-A5F1-ED9FA2009417}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78946A9B-6969-4483-A5F1-ED9FA2009417}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78946A9B-6969-4483-A5F1-ED9FA2009417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FBBB730-B09A-4E8B-96B6-BB6B2508338B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FBBB730-B09A-4E8B-96B6-BB6B2508338B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FBBB730-B09A-4E8B-96B6-BB6B2508338B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FBBB730-B09A-4E8B-96B6-BB6B2508338B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
